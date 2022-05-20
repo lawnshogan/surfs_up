@@ -20,29 +20,18 @@
 
 
 ## **Analysis**
-Using what I've learned from coding, it was clear that I needed to use a mix of SQL and Python to analyze and display my results. It important we connect to the dataset using SQL and then can analyze the data with python. After pull up the data and seeing what we have to work with, it was clear we could begin drawing out questions to answer based on the data in each database. It was vital that we use the stations to determine where this weather data was collected around the island. Its crucial we find out the min, max and average temperature / rainfall. Below is the code I used to provide an analysis for the Months of June and December.
+Using what I've learned from coding, it was clear that I needed to use a mix of SQL and Python to analyze and display my results. It important we connect to the dataset using SQL and then can analyze the data with python. After pull up the data and seeing what we have to work with, it was clear we could begin drawing out questions to answer based on the data in each database. It was vital that we use the stations to determine where this weather data was collected around the island. Its crucial we find out the min, max and average temperature / rainfall. Below is the code I used to provide an analysis for the Months of June and December. The data was displayed using Flask, which is a great method of viewing the data without getting confused by the code.
 
 
 <p align="center">
   <img src="https://github.com/lawnshogan/surfs_up/blob/main/Code%20Screenshot.png" width="700"/>
 </p>
 
-
 ### **The results...**
-
-With this data now accounted for in our dataset, it's time to move onto the second deliverable and recalulate the following metrics:
-
-- The district summary
-- The school summary
-- The top 5 and bottom 5 performing schools, based on the overall passing rate
-- The average math score for each grade level from each school
-- The average reading score for each grade level from each school
-- The scores by school spending per student, by school size, and by school type
-
-
-
-
-
+Here are some observations I found after analyzing the data...
+    1. Minimum temperatures in June, when tourist season is beginning, are higher than in December, when temperatures are lower and less busy. This is great news.
+    2. Maximum and average temperatures are similar year round (a few degrees difference)
+    3. From our Precipitation analysis, its clear we will have to deal with some precipitation year round, as this is a tropical island. Because we used the station data, we were able to see what parts of the island rain more than others - There was a large difference in these precipitation numbers.
 
 ### **Summary**
 
