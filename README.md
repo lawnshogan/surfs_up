@@ -29,14 +29,13 @@ Using what I've learned from coding, it was clear that I needed to use a mix of 
 
 ### **The results...**
 Here are some observations I found after analyzing the data...
-    1. Minimum temperatures in June, when tourist season is beginning, are higher than in December, when temperatures are lower and less busy. This is great news.
-    2. Maximum and average temperatures are similar year round (a few degrees difference)
-    3. From our Precipitation analysis, its clear we will have to deal with some precipitation year round, as this is a tropical island. Because we used the station data, we were able to see what parts of the island rain more than others - There was a large difference in these precipitation numbers.
+
+- Minimum temperatures in June, when tourist season is beginning, are higher than in December, when temperatures are lower and less busy. This is great news.
+- Maximum and average temperatures are similar year round (a few degrees difference)
+- From our Precipitation analysis, its clear we will have to deal with some precipitation year round, as this is a tropical island. Because we used the station data, we were able to see what parts of the island rain more than others - There was a large difference in these precipitation numbers.
 
 ### **Summary**
 
-This analysis was interesting but I also thought the results were somewhat predictable, which can happen in data science. When students try to cheat and change their scores, they are not giving themselves F grades - They are probably giving themselves A and B grades. 
+- While doing this analysis, I thought it would be interesting to go even further and think of other ways we could tell a story with our data. Hawaii relys on tourism and it's important to know when these tourists are coming and where they are staying. We could potentially merge these databases together to tie in more information regarding not only the weather, but the tourists as well. This could help determine if the location will draw tourist traffic or not. 
 
-With this in mind, when we alter our data by taking out the 9th graders for a particular school, your overall passing scores will lower, because you are getting rid of the results of higher scores.
-
-The budget per district and per school size will be altered as well as the new data is accounted for and calculated.
+- As we also individually calculated the percipitation and temperature data, we could also combine the two to better understand the correlation between temp and precipitation. Ultimately, we just need to find an area that is warm year round, rains less and also has good access to tourist locations.
